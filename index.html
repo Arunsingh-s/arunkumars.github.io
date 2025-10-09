@@ -24,16 +24,20 @@
     .navbar-brand{font-weight:700; letter-spacing:.5px;}
 
     /* Hero */
-    .hero{
-      min-height: 100vh;
-      background-image: url(" image/23.jpg");  /* image ka path */
-  background-repeat: no-repeat;             /* repeat na ho */
-  background-size: cover;                   /* pura page cover kare */
-  background-position: center; center/cover no-repeat fixed;
-      position: relative;
-      display:#; align-items:center; justify-content:center;
-      text-align:center; color:#fff;
-    }
+    .hero {
+  min-height: 100vh;
+  background-image: url("image/23.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
     .hero::before{
       content:"";position:absolute;inset:0;background:rgba(0,0,0,.55);
     }
@@ -44,7 +48,7 @@
     }
 
     /* Section spacing */
-    section{padding:80px 0;}
+    section{padding:60px 0;}
 
     /* Cards */
     .icon-lg{font-size:28px; color:var(--primary);}
@@ -323,7 +327,7 @@
     <div class="container">
       <h2 class="text-center fw-bold mb-5">Projects</h2>
 		<div class="row g-4">
-	<div class="col-12 col-sm-6 col-lg-4 mb-2">
+	<div class="col-12 col-sm-6 col-lg-4">
   <a href="https://arunsingh-s.github.io/arunkumars.github.io" target="_blank" style="text-decoration: none; color: inherit;">
     <div class="card skill-card h-100 shadow-sm hover-effect">
       <div class="card-body text-center">
@@ -333,22 +337,22 @@
     </div>
   </a>
 </div>
-	<div class="col-12 col-sm-6 col-lg-4 mb-2">
+	<div class="col-12 col-sm-6 col-lg-4">
   <a href="https://github.com/Arunsingh-s/Exploratory-Data-Analysis-EDA-/blob/main/Exploratory%20Data%20Analysis%20(EDA).ipynb" target="_blank" style="text-decoration: none; color: inherit;">
     <div class="card skill-card h-100 shadow-sm hover-effect">
       <div class="card-body text-center">
-        <i class="fa fa-graduation-cap me-2"></i>
+        <i class="fa fa-chart-line icon-lg mb-3"></i>
         <h5 class="card-title">Exploratory Data Analysis (EDA)</h5>
       </div>
     </div>
   </a>
 </div>
 	
-<div class="col-12 col-sm-6 col-lg-4 mb-2">
+<div class="col-12 col-sm-6 col-lg-4">
   <a href="https://github.com/Arunsingh-s/Arun_Dashboarb/blob/main/ArunDashboard/Code_Alpha_3_project.pbix" target="_blank" style="text-decoration: none; color: inherit;">
     <div class="card skill-card h-100 shadow-sm hover-effect">
       <div class="card-body text-center">
-        <i class="fa fa-book me-2"></i>
+        <i class="fa fa-chart-pie icon-lg mb-3"></i>
         <h5 class="card-title">Data Visualization Dashboard</h5>
       </div>
     </div>
@@ -357,7 +361,7 @@
 			<!--double-->
 
 <div class="row g-4">
-	<div class="col-12 col-sm-6 col-lg-4 mb-2">
+	<div class="col-12 col-sm-6 col-lg-4">
   <a href="https://arunsingh-s.github.io/arunkumars.github.io" target="_blank" style="text-decoration: none; color: inherit;">
     <div class="card skill-card h-100 shadow-sm hover-effect">
       <div class="card-body text-center">
@@ -367,7 +371,7 @@
     </div>
   </a>
 </div>
-	<div class="col-12 col-sm-6 col-lg-4 mb-2">
+	<div class="col-12 col-sm-6 col-lg-4">
   <a href="#" target="_blank" style="text-decoration: none; color: inherit;">
     <div class="card skill-card h-100 shadow-sm hover-effect">
       <div class="card-body text-center">
@@ -378,7 +382,7 @@
   </a>
 </div>
 	
-<div class="col-12 col-sm-6 col-lg-4 mb-2">
+<div class="col-12 col-sm-6 col-lg-4 mb">
   <a href="#" target="_blank" style="text-decoration: none; color: inherit;">
     <div class="card skill-card h-100 shadow-sm hover-effect">
       <div class="card-body text-center">
@@ -494,6 +498,7 @@
   </script>
 </body>
 </html>
+
 
 
 
